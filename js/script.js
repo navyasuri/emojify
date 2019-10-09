@@ -3,10 +3,6 @@ let poseNet; // This would be the machine learning model
 let poses;
 let emojis = [];
 let neutral;
-// import FaceExpressionNet from 'lib/faceapi'
-// let net = FaceExpressionNet();
-// console.log(net);
-
 
 function setup() {
     createCanvas(640, 480);
